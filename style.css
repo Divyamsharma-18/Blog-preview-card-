@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container{
+    margin-top: 8%;
+    width: 240px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 6px 6px;
+}
+.container:hover{
+    box-shadow: 10px 10px;
+    transition: 500ms;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardImg{
+    margin-top: 15px;
+    width: 210px; 
+    height: 150px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+h5{
+    margin-left: 18px;
+    background-color: hsl(47, 88%, 63%);
+    height: 18px;
+    width: 65px;
+    border: 2px solid hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: smaller;
+}
+h6{
+    margin-left: 18px;
+    font-weight: 600;
+}
+.heading{
+    margin-left: 18px;
+    font-weight: 800;
+    font-size: smaller;
+    color: black;
+}
+.heading:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    transition: 500ms;
+}
+p{
+    margin-left: 18px;
+    font-size: 11px;
+    margin-right: 2px;
+    color: hsl(0, 0%, 50%);
+}
+footer{
+    display: flex;
+}
+.avatar{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.name{
+    font-weight: 800;
+    font-size: smaller;
+    color: black;
+}
